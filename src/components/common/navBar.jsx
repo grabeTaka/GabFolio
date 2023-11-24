@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import "./styles/navBar.css";
 
 const NavBar = (props) => {
@@ -46,7 +47,20 @@ const NavBar = (props) => {
 										: "nav-item"
 								}
 							>
-								<Link to="/contact">Contato</Link>
+									<a
+										href="https://wa.me/5512991227376?text=Olá!"
+										target="_blank"
+										rel="noreferrer"
+									>
+										<div className="social-icon">
+											<FontAwesomeIcon
+												icon={faWhatsapp}
+												className="social-icon blob green"
+												color="green"
+											/>
+										</div>
+									</a>
+								
 							</li>
 						</ul>
 					</div>
