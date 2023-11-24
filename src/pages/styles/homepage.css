@@ -89,10 +89,16 @@
 }
 
 .homepage-works {
-	flex-basis: 600px;
+	flex-basis: 100vh;
 	padding-top: 30px;
 }
 
+@media (max-width: 600px) {
+	.homepage-works {
+		flex-basis: 10vh !important;
+
+	}	
+}
 @media (max-width: 1024px) {
 	.homepage-first-area {
 		flex-direction: column;

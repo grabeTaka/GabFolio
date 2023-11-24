@@ -1,24 +1,20 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
-		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
+		title: "Gabriel Takahashi",
+		name: "Gabriel",
+		email: "gabrltakahashi@gmail.com",
 		logo: "../logo.png",
 	},
 
 	socials: {
-		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
-		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
+		github: "https://github.com/grabeTaka",
+		linkedin: "https://www.linkedin.com/in/gabriel-takahashi-754802152/",
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
+		title: "Olá me chamo Gabriel Takahashi e eu sou desenvolvedor full-stack.",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"Trabalho na área de tecnologia como desenvolvedor full-stack de software a 5 anos, possuo experiência em construir sistemas escaláveis, seguros e performáticos. Eu adoro resolver problemas complexos e ver como a tecnologia impacta positivamente a vida das pessoas. Possuo experiência com várias tecnologias sendo algumas selas: React, Node.js, Vue.js, Ruby on Rails, testes de software e documentações."
 	},
 
 	about: {
@@ -35,48 +31,30 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "Ubeleza",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Sistema web para gerenciar estabelecimentos de médio e pequeno porte, voltado para salões de beleza.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/grabeTaka/UBeleza-Front",
 		},
 
 		{
-			title: "Project 2",
+			title: "UBeleza Aplicativo",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Aplicativo para usuários encontrarem os seus estabelecimentos preferidos e agendarem um horário",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/grabeTaka/UBeleza-App",
 		},
 
 		{
-			title: "Project 3",
+			title: "E-commerce",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 4",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Sistema de compras onlines, onde o usuário pode selecionar a quantidade e os produtos desejados.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 5",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/grabeTaka/Shopper-Font",
 		},
 	],
 };

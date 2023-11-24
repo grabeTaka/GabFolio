@@ -8,6 +8,8 @@ import {
 	faGithub,
 	faStackOverflow,
 	faInstagram,
+	faWhatsapp,
+	faLinkedin
 } from "@fortawesome/free-brands-svg-icons";
 
 import Logo from "../components/common/logo";
@@ -107,6 +109,7 @@ const Homepage = () => {
 											src="homepage.jpg"
 											alt="about"
 											className="homepage-image"
+											style={{position: 'relative', top: '-30px'}}
 										/>
 									</div>
 								</div>
@@ -115,12 +118,22 @@ const Homepage = () => {
 
 						<div className="homepage-socials">
 							<a
-								href={INFO.socials.twitter}
+								href={INFO.socials.linkedin}
 								target="_blank"
 								rel="noreferrer"
 							>
 								<FontAwesomeIcon
-									icon={faTwitter}
+									icon={faLinkedin}
+									className="homepage-social-icon"
+								/>
+							</a>
+							<a
+								href="https://wa.me/5512991227376?text=Olá!"
+								target="_blank"
+								rel="noreferrer"
+							>
+								<FontAwesomeIcon
+									icon={faWhatsapp}
 									className="homepage-social-icon"
 								/>
 							</a>
@@ -131,26 +144,6 @@ const Homepage = () => {
 							>
 								<FontAwesomeIcon
 									icon={faGithub}
-									className="homepage-social-icon"
-								/>
-							</a>
-							<a
-								href={INFO.socials.stackoverflow}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faStackOverflow}
-									className="homepage-social-icon"
-								/>
-							</a>
-							<a
-								href={INFO.socials.instagram}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faInstagram}
 									className="homepage-social-icon"
 								/>
 							</a>
@@ -171,23 +164,6 @@ const Homepage = () => {
 						</div>
 
 						<div className="homepage-after-title">
-							<div className="homepage-articles">
-								{myArticles.map((article, index) => (
-									<div
-										className="homepage-article"
-										key={(index + 1).toString()}
-									>
-										<Article
-											key={(index + 1).toString()}
-											date={article().date}
-											title={article().title}
-											description={article().description}
-											link={"/article/" + (index + 1)}
-										/>
-									</div>
-								))}
-							</div>
-
 							<div className="homepage-works">
 								<Works />
 							</div>
